@@ -16,6 +16,7 @@ p
 {
     font-size: 1em;
     line-height: 1.3em;
+    color:black;
 }
 
 /*Header*/
@@ -113,7 +114,8 @@ section h2
 
 .container
 {
-    display: flex;   
+    display: flex;
+    color: blue;
 }
 
 .container h3
