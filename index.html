@@ -13,26 +13,23 @@
     </div>
     <nav>
         <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">A propos</a></li>
-            <li><a href="#">Compétences</a></li>
-            <li><a href="#">Portfolios</a></li>
-            <li><a href="#">Expériences</a></li>
-            <li><a href="#">Formations</a></li>
+            <li><a href="#Apropos">A propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#experience">Expériences</a></li>
+            <li><a href="#formation"">Formations</a></li>
         </ul>
     </nav>
 </header>
 
 <section>
-    <h2>A propos</h2>
+    <h2 id="Apropos">A propos</h2>
     <div class="container">
-        <div id="photo_profil">
-            <a href="#"><img src="images/amelie-piraud-profil.jpg" alt="Photo de profil"></a>
-        </div>
     <div id="objectif">
         <h3>Objectifs</h3>
-        <p>Je suis à la recherche d'une entreprise pour effectuer ma 2ème année de BTS SIO SISR.<br>
-        Je suis intéressée par la cybersécurité et le pentesting notamment.</p>
+        <p>Sérieuse, organisée et motivée, je recherche une entreprise pour effectuer ma 2ème année d'alternance en BTS SIO SISR<br>
+        Le domaine de la sécurité informatique (offensive) m'intéresse beaucoup et j'apprends en autodidacte à ce sujet.<br>
+        Je cherche un environnement de travail stimulant ou je pourrais acquérir des connaissances et compétences afin de mieux appréhender les différentes technologies. </p>
     </div>
     <div id="coordonnees">
         <h3>Coordonnées</h3>
@@ -42,43 +39,39 @@
         <p>Permis B</p>
     </div>
     <div id="reseaux">
+        <h3>Réseaux</h3>
         <a href="https://www.linkedin.com/in/amelie-piraud/"><img src="images/linkedin.png" alt="linkedin"></a>
         <a href="https://github.com/ameliepiraud"><img src="images/github.png" alt="Github"></a>
-        <a href="https://www.root-me.org/fiazea?lang=fr"><img src="rootme.svg" alt="Rootme"></a>
+        <a href="https://www.root-me.org/fiazea?lang=fr"><img src="images/rootme.png" alt="Rootme"></a>
         <a href="https://tryhackme.com/p/Fiazea"><img src="images/thm.png" alt="TryHackMe"></a>
     </div>
 </div>
 </div>
 </section>
 <section>
-    <h2>Compétences</h2>
+    <h2 id="competences">Compétences</h2>
     <div class="container">
         <div id="hardskills">
             <h3>Compétences</h3>
             <div class="comp">
-                <p>Virtualisation</p>
-                <p>95%</p>
-                <div class="conteneur-barre"><span class="barre c95"></span></div>
+                <p>Gestion de parc informatique</p>
+                <div class="conteneur-barre"><span class="barre c80"></span></div>
             </div>
             <div class="comp">
-                <p>Virtualisation</p>
-                <p>90%</p>
-                <div class="conteneur-barre"><span class="barre c90"></span></div>
+                <p>Support N0/N1</p>
+                <div class="conteneur-barre"><span class="barre c80"></span></div>
             </div>
             <div class="comp">
-                <p>Virtualisation</p>
-                <p>90%</p>
-                <div class="conteneur-barre"><span class="barre c90"></span></div>
+                <p>Déploiement de postes</p>
+                <div class="conteneur-barre"><span class="barre c70"></span></div>
             </div>
             <div class="comp">
-                <p>Virtualisation</p>
-                <p>90%</p>
-                <div class="conteneur-barre"><span class="barre c90"></span></div>
+                <p>Gestion des utilisateurs dans l'Active Directory</p>
+                <div class="conteneur-barre"><span class="barre c25"></span></div>
             </div>
             <div class="comp">
-                <p>Virtualisation</p>
-                <p>90%</p>
-                <div class="conteneur-barre"><span class="barre c90"></span></div>
+                <p>Documentation et procédures</p>
+                <div class="conteneur-barre"><span class="barre c70"></span></div>
             </div>
         </div>
         <div id="softskills">
@@ -99,7 +92,7 @@
                     </figure>
                     <figure class="outils-info">
                         <img src="images/Packettracer.png" alt="Packet Tracer">
-                        <figcaption>Packet Tracer</figcaption>
+                        <figcaption>Packet<br>Tracer</figcaption>
                     </figure>
                     <figure class="outils-info">
                         <img src="images/wireshark.jpg" alt="wireshark">
@@ -114,7 +107,7 @@
                 <h3>OS</h3>
             <div class="container-os">
                     <figure class="outils-info">
-                        <img src="images/windows10.png" alt="windows">
+                        <img src="images/Windows.png" alt="windows">
                         <figcaption>Windows<br>10/11</figcaption>
                     </figure>
                     <figure class="outils-info">
@@ -135,7 +128,7 @@
 </div>
 </section>
     <section class="carousel">
-        <h2>Portfolios</h2>  
+        <h2 id="portfolio">Portfolio</h2>  
         <ul class="carousel-items">
             <li class="carousel-item">
                 <div class="card">
@@ -163,26 +156,45 @@
                         <a href="documents/secnumacademie.pdf" class="button">Télécharger</a>
                     </div>
                 </div>
+                </li>
+                <li class="carousel-item">
+                    <div class="card">
+                        <h3 class="card-title">Advent of Cyber 2021</h3>
+                        <img src="documents/AdventOfCyber2021.png" />
+                        <div class="card-content">
+                            <p>Des exercices couvrant les sujets suivants : <br>
+                                Exploitation Web <br>
+                                Exploitation réseau<br>
+                                OSINT<br>
+                                Cloud Hacking <br>
+                                Defensive Blue Teaming</p>
+                            <a href="documents/AdventOfCyber2021.png" class="button">Télécharger</a>
+                        </div>
+                    </div>
+                    </li>
             </ul>
 </section>
 <section>
-    <h2>Expériences</h2>
+    <h2 id="experience">Expériences</h2>
     <div class="container-experience">
             <div class="experience-logo">
-                <a href="#"><img src="images/huttopia.png" alt="Logo Huttopia"></a>
+                <a href="https://corporate.huttopia.com/lentreprise/"><img src="images/huttopia.png" alt="Logo Huttopia"></a>
             </div>
             <div class="experience-infos">
                 <h3>Technicienne Desk Maintenance</h3>
                 <h4>6 sept 2021 au 31 août 2022</h4>
             </div>
             <div class="experience-description">
-                <p>Préparation de PC et téléphones<br>
-                    Support utilisateur</p>
+                <p>Déploiement de poste de travail, téléphones et imprimantes (master avec Clonezilla)<br>
+                   Installation, configuration, maintenance et dépannage du matériel informatique<br>
+                    Gestion du parc informatique (stock, suivi, maintenance)<br>
+                    Support de niveaux 0 et 1<br>
+                    Rédaction de documentations et procédures</p>
             </div>
     </div>
     <div class="container-experience">
         <div class="experience-logo">
-            <a href="#"><img src="images/crsmr.jpg" alt="Logo CRSMR ARA"></a>
+            <a href="https://www.sportrural-ara.fr/"><img src="images/crsmr.jpg" alt="Logo CRSMR ARA"></a>
         </div>
         <div class="experience-infos">
             <h3>Agent de développement sportif</h3>
@@ -196,7 +208,7 @@
 </div>
 <div class="container-experience">
     <div class="experience-logo">
-        <a href="#"><img src="images/etoile.png" alt="Logo Etoile de Montaud"></a>
+        <a href="https://www.etoiledemontaud.com/"><img src="images/etoile.png" alt="Logo Etoile de Montaud"></a>
     </div>
     <div class="experience-infos">
         <h3>Educatrice sportive</h3>
@@ -210,41 +222,46 @@
 </div>
 </section>
 <section>
-    <h2>Formations</h2>
+    <h2 id="formation">Formations</h2>
     <div class="container-experience">
         <div class="experience-logo">
-            <a href="#"><img src="images/uimm.png" alt="Logo UIMM"></a>
+            <a href="https://www.pole-formation-lda.fr/"><img src="images/uimm.png" alt="Logo UIMM"></a>
         </div>
         <div class="experience-infos">
             <h3>BTS SIO option SISR</h3>
             <h4>En cours de formation</h4>
         </div>
         <div class="experience-description">
-            <p>Exemple</p>
+            <p>Connaissance de base en programmation et web : HTML, CSS, PHP, C#, MySQL,base de données<br>
+            Réalisation de différents projets en réseaux :<br>
+        - Serveur DHCP (Windows Server et Linux)<br>
+        - Serveur DNS (Windows Server)<br>
+        - Serveur Active Directory<br>
+        - Serveur Web (Linux) + déploiement d'un CMS (Wordpress) dans un réseau local</p>
         </div>
     </div>
     <div class="container-experience">
         <div class="experience-logo">
-            <a href="#"><img src="images/afms.jpg" alt="Logo AFMS"></a>
+            <a href="https://www.afms-loire.fr/"><img src="images/afms.jpg" alt="Logo AFMS"></a>
         </div>
         <div class="experience-infos">
             <h3>BP JEPS Activités Physiques pour Tous</h3>
             <h4>2016-2018 (obtenu)</h4>
         </div>
         <div class="experience-description">
-            <p>Description des tâches</p>
+            <p>Développement de compétences d'encadrement d'activités sportives.</p>
         </div>
     </div>
     <div class="container-experience">
         <div class="experience-logo">
-            <a href="#"><img src="images/renouveau.png" alt="Logo Le Renouveau"></a>
+            <a href="https://www.lerenouveau.org/"><img src="images/renouveau.png" alt="Logo Le Renouveau"></a>
         </div>
         <div class="experience-infos">
             <h3>Baccalauréat Sciences et Technologies de l'Hôtellerie Restauration</h3>
             <h4>2011-2014 (obtenu)</h4>
         </div>
         <div class="experience-description">
-            <p>Description des tâches</p>
+            <p>Apprentissage de la gestion hôtelière, la restauration et le service</p>
         </div>
     </div>
 </section>

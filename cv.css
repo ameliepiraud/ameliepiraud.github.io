@@ -15,7 +15,7 @@ body
 p
 {
     font-size: 1em;
-    line-height: 1.3em;
+    line-height: 1.4em;
     color:black;
 }
 
@@ -46,17 +46,6 @@ header h1
     margin: 0 0 0 10px;
 }
 
-footer
-{
-    background: url("images/reseau3.jpg");
-    justify-content: center;
-}
-
-footer p 
-
-{
-    color: white;
-}
 
 
 /*Navigation*/
@@ -128,41 +117,34 @@ section h2
 
 #objectif
 {
-    width: 40%;
+    width: 50%;
     margin-left: 3%;
     margin-right: 3%;
 }
 
+
 #coordonnees
 {
-    width: 35%;
+    width: 40%;
 }
 
-#photo_profil
-{
-    justify-content: center;
-    width: 20%;
-}
 
 #reseaux
 {
-    margin: 3%;
-    width: 10%;
+    width: 20%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 #reseaux img
 {
+    display: flex;
+    flex-direction: row wrap;
     width: 50px;
     height: 50px;
+    margin: 2px;
 }
-#photo_profil img
-{
-    width: 80%;
-    margin-left: 15px;
-}
+
 
 /*Section compétences */
 #hardskills
@@ -198,7 +180,7 @@ section h2
     justify-content: space-between;
 }
 .comp p{
-    flex: 0 0 40%;
+    flex: 0 0 100%;
 }
 .conteneur-barre{
     flex: 0 0 100%;
@@ -217,16 +199,16 @@ section h2
     width: 85%;
     background-color: #50a2c2;
 }
-.c90{
-    width: 90%;
+.c70{
+    width: 70%;
     background-color: #50a2c2;
 }
-.c95{
-    width: 95%;
+.c80{
+    width: 80%;
     background-color: #50a2c2;
 }
-.c100{
-    width: 100%;
+.c25{
+    width: 25%;
     background-color: #50a2c2;
     border-radius: 5px;
 }
@@ -264,8 +246,10 @@ section h2
 }
 
 /*Section portfolios*/
+
 .carousel-items 
 {
+    margin:3%;
     display: flex;
     padding: 1rem 0;
     overflow-x: scroll;
@@ -350,22 +334,13 @@ footer
 {
     display: flex;
     padding-top: 25px;
+    background: url("images/reseau3.jpg");
+    justify-content: center;
 }
 
-#contact
+footer p 
+
 {
-    width: 50%;
+    color: white;
 }
-
-#reseaux_sociaux
-{
-    width: 50%;
-}
-
-#reseaux_sociaux img
-{
-    width: 50px;
-    height: 50px;
-}
-
 
