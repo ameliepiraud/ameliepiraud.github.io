@@ -317,12 +317,14 @@ section h2
     border-bottom: 1px solid #bbb;
     padding-bottom: 10px;
     margin-bottom:10px;
+    align-items: center;
 }
 
 .experience-logo
 {
     flex: 0 0 10%;
     width: 15%;
+    max-height: 120px;
     margin-left: 3%;
 }
 
